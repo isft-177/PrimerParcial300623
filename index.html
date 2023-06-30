@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dar de alta un empleado</title>
+
+</head>
+<body>
+<section id="section-form">
+    <h1>Dar de alta un empleado</h1>
+    <form id="form" method="post" action="#" novalidate>
+        <div>
+            <label for="name">Nombre *</label>
+            <input id="name" type="text" required>
+        </div>
+        <div>
+            <label for="surname">Apellido *</label>
+            <input id="surname" type="text" required>
+        </div>
+        <div>
+            <label for="city">Ciudad *</label>
+            <select id="city" required></select>
+        </div>
+        <div>
+            <label for="color">Color favorito *</label>
+            <input id="color" type="color" value="#ff0000" required>
+        </div>
+        <div>
+            <label for="birthdate">Fecha de Nacimiento</label>
+            <input id="birthdate" type="date">
+        </div>
+        <div>
+            <label for="amount">Salario bruto *</label>
+            <input id="amount" type="number" required>
+        </div>
+        <div>
+            <button id="submit" type="submit">Dar de alta</button>
+        </div>
+    </form>
+</section>
+<section id="section-list">
+    <ol></ol>
+</section>
+<section id="section-quantity">
+    <p></p>
+</section>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
